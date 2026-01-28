@@ -10,7 +10,7 @@ int main(){
    
     std::cout << x + y << '\n';
     std::cout << z << '\n';
-    std::cout << "total sum:" << " " << sum << '\n';
+    std::cout << "total sum: " << sum << '\n';
 
     return 0;
 }
