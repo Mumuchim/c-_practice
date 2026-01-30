@@ -1,2 +1,2 @@
 
-        cout << "The temperature is go
+                   [](unsigned char c)
