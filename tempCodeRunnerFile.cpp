@@ -1,2 +1,2 @@
 
-    std::cout << "Ay wow grabe ka pala! l
+        cout << "The temperature is go
