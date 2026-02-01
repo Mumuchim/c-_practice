@@ -34,6 +34,7 @@ int main()
         break;
     case 7:
         cout << "It is July";
+        break;
     case 8:
         cout << "It is August";
         break;

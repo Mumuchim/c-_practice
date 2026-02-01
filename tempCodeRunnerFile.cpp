@@ -1,2 +1,2 @@
 
-                   [](unsigned char c)
+    } while (input != password);

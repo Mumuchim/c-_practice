@@ -20,7 +20,7 @@ int main()
         cout << "You didn't type anything :<";
     }
     else if (name.find('0') != string::npos || // finds something in a string, i don't understand why not equal npos, just used AI in here
-             name.find('1') != string::npos ||
+             name.find('1') != string::npos || // i just know that || is an or sign
              name.find('2') != string::npos ||
              name.find('3') != string::npos ||
              name.find('4') != string::npos ||

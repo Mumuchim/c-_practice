@@ -31,7 +31,7 @@ int main()
 
     else
     {
-        cout << "Your are not old enough to enter!";
+        cout << "You are not old enough to enter!";
     }
 
     return 0;
