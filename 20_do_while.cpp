@@ -15,6 +15,7 @@ int main()
     do
     {
         std::cout << "Enter a positive #: ";
+
         std::cin >> number;
     } while (number < 0);
 

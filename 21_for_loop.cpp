@@ -7,6 +7,7 @@ int main()
     std::cout << "HMMM? ILAN?: ";
     std::cin >> mwah;
     std::cout << '\n';
+
     for (int i = 1; i <= mwah; i++)
     // diba eto;       |       // pag reject gawin mo to
     // accepting condition;
@@ -16,7 +17,7 @@ int main()
 
     int count = 0;
     std::cout << "\nHMMM? ILAN ULIT?: ";
-    std::cin >> count; // 3
+    std::cin >> count;
 
     for (int i = 1; i <= count; i++) // it only accepts true conditions and stops the loop if false.
     {
