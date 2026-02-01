@@ -1,2 +1,1 @@
 
-    } while (input != password);

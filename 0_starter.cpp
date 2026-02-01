@@ -5,5 +5,5 @@
 int main()
 {
     // this is the inside of main function
-    return 0;
+    return 0; // exit
 }
