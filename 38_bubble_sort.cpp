@@ -19,7 +19,7 @@ int main()
 void sort(int array[], int size) // this is bubble sort function // yeah gets ko sya pero hindi sa code boset
 {
     int temp;
-    for (int i = 0; i < size - 1; i++)
+    for (int i = 0; i < size - 1; i++) // basta eto mag run sya hanggang maabot nya yung size 9th run < 9; stop
     {
         for (int j = 0; j < size - i - 1; j++)
         {
