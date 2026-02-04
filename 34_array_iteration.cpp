@@ -1,7 +1,5 @@
 #include <iostream>
 
-char array;
-
 int main()
 {
     std::string manaloto[] = {"Pepito", "Elsa", "Chito", "Clarissa"};
