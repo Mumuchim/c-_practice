@@ -1,27 +1,28 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    int n;
-    cin >> n;
+double toSeconds(double x);
+int toSeconds(int x);
 
-    int *nums = new int[n];
+int main() {
+    double days;
+    cin >> days;
 
-    for (int i = 0; i < n; i++)
-    {
-        cin >> nums[i];
-    }
+    double seconds = toSeconds(days);
+    cout << seconds;
 
-    int max = nums[0];
+    cout << endl;
 
-    for (int i = 1; i < n; i++)
-    {
-        if (nums[i] > max)
-            max = nums[i];
-    }
+    int days2;
+    cin >> days2;
 
-    cout << max;
+    int seconds2 = toSeconds(days2);
+    cout << seconds2;
+}
 
-    delete[] nums;
+int toSeconds(int x) {
+    return x*24*60*60;
+}
+double toSeconds(double x) {
+    return x*24*60*60;
 }
