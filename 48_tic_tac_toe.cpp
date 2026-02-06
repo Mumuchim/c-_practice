@@ -82,7 +82,7 @@ void playerMove(char *spaces, char player)
             break;
         }
 
-    } while (!number > 0 || !number < 8); // why not number???
+    } while (!number > 0 || !number < 8); 
 }
 void computerMove(char *spaces, char computer)
 {
